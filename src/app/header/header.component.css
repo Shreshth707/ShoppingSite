@@ -1,0 +1,54 @@
+.active{
+    font-style: bold;
+}
+.navbar-nav{
+    margin-left: auto;
+    font-size: x-large ;
+}
+.login{
+    background-color: #b8461a;
+}
+.navbar-item{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar{
+    padding: 0px;
+    line-height: 3rem;
+}
+
+.navbar .login{
+    color: black;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    position: relative;
+    box-sizing: inherit;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    max-width: 90rem;
+    margin: 5rem auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+ 
+  
+  *, *::before, *::after {
+    position: relative;
+    box-sizing: inherit;
+  }
+

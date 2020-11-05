@@ -1,0 +1,244 @@
+.container-fluid{
+  margin-top: 5rem;
+  width: 90%;
+}
+
+.col{
+  background: linear-gradient(#555, #444);
+  box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.pricefooter{
+  width:100%;
+  height:50px;
+  margin-top:10%;
+  background:#333; 
+}
+
+.button a{
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  line-height:3;
+}
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: none;
+}
+
+.button{
+  width:50%;
+  height:50px;
+  margin:0 auto 0 auto;
+  background:#ff9547;
+  text-align:center; 
+  cursor:pointer;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover{
+  width:60%;
+}
+
+  
+  /* card */
+  .dress-card-img-top {
+    width:100%;
+    border-radius: 7px 7px 0 0;
+  }
+  
+  .dress-card-body {
+    padding:1rem;
+    background: #fff;
+    border-radius: 0 0 7px 7px;
+  }
+  
+  .dress-card-title {
+    line-height: 0.5rem;
+  }
+  
+  .dress-card-crossed {
+    text-decoration: line-through;
+  }
+  
+  .dress-card-price {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .dress-card-off {
+    color: #E06C9F;
+  }
+  
+  .dress-card-para {
+    margin-bottom: 0.2rem;
+    font-size: 1.0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .dress-card {
+    border-radius: 14px;
+  }
+  
+  .dress-card-heart {
+    font-size: 1em;
+    color: #DB2763;
+    margin: 4.5px;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    
+  }
+  
+  .surprise-bubble {
+    position: absolute;
+    bottom: 12rem;
+    right: 2rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    padding: 1rem;
+    color: white;
+    -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble a {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    opacity: 0;
+    -webkit-transition-delay: 2s;
+    /* Safari */
+    transition-delay: 2s;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble:hover {
+    border-radius: 999rem;
+    padding: 1rem;
+    width: 26%;
+    height: 30px;
+    background: #DB2763;
+    color: white;
+    -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .surprise-bubble:hover a {
+    opacity: 1;
+    -webkit-transition-delay: 2s;
+    /* Safari */
+    transition-delay: 2s;
+    -webkit-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .card-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px;
+  }
+  .card-button a {
+    text-decoration: none;
+  }
+  
+  .card-button-inner {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .bag-button {
+    background: #E06C9F;
+    color: white;
+  }
+  
+  .bag-button :hover{
+    background: #e299b9;
+  }
+  
+  .wish-button {
+    border: 1px solid #E06C9F;
+    color: #E06C9F;
+  }
+  
+  h1{
+    text-align: center;
+    color: #ff9547;
+  }
+
+    
+  .item {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+ 
+  
+    .text_wrapper {
+        display: block;
+        color: #313131;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      background:transparent;
+      color: #dfdfdf;
+      font-size: 1.25em;
+    }
+  
+
+    .text_position {
+      position: absolute;
+      top: 50%;
+      left: 15%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 70%;
+      display: block;
+    }
+  
+  .item--title {
+    display: block;
+    font-family: 'Julius Sans One', Arial, sans-serif;
+    font-size: 1.8em;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: inherit;
+    font-weight: bolder;
+  }
+  .item--title a{
+      color: white;
+      text-decoration: underline;
+      font-size: medium;
+      text-align: center;
+      font-weight: bolder;
+  }
+  
+  .container-new-arrivals{
+    margin-top: 5rem;
+  }
+  h1{
+    color:white;
+    font-weight: bold;
+  }
+ 
+  
