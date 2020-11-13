@@ -1,5 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body{
-    background-color: #b8461a;
+    background-color: #EA5823;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }

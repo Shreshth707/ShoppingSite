@@ -3,34 +3,29 @@
   width: 90%;
 }
 
-.col{
-  background: linear-gradient(#555, #444);
-  box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
-}
 
 .pricefooter{
-  width:100%;
-  height:50px;
-  margin-top:10%;
   background:#333; 
+  height: 80px;
 }
 
 .button a{
   color:#fff;
-  font-size:14px;
+  font-size:22px;
   font-weight:bold;
-  line-height:3;
+  line-height: 1.5;
 }
+
 .gallery-image {
 	display: block;
 	width: 100%;
 	height: 100%;
-	object-fit: none;
+  object-fit: none;
 }
 
 .button{
   width:50%;
-  height:50px;
+  height: 80px;
   margin:0 auto 0 auto;
   background:#ff9547;
   text-align:center; 
@@ -42,7 +37,7 @@
 }
 
 .button:hover{
-  width:60%;
+  width:80%;
 }
 
   
@@ -187,22 +182,13 @@
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
-    font-size: 1rem;
   }
  
   
     .text_wrapper {
-        display: block;
-        color: #313131;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      opacity: 1;
-      background:transparent;
+     
       color: #dfdfdf;
-      font-size: 1.25em;
+      font-size: 15px;
     }
   
 
@@ -233,12 +219,14 @@
       font-weight: bolder;
   }
   
-  .container-new-arrivals{
-    margin-top: 5rem;
-  }
+ 
   h1{
     color:white;
     font-weight: bold;
   }
  
+  .col-md-8, img{
+    padding-left: 0px;
+    padding-right: 0px;  
+  }
   

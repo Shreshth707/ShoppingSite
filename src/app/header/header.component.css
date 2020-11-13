@@ -1,12 +1,12 @@
-.active{
-    font-style: bold;
+.navbar-dark .navbar-nav .active .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #EA5823;
 }
 .navbar-nav{
     margin-left: auto;
     font-size: x-large ;
 }
 .login{
-    background-color: #b8461a;
+    background-color: #EA5823;
 }
 .navbar-item{
     margin-top: 0px;
@@ -15,6 +15,7 @@
 .navbar{
     padding: 0px;
     line-height: 3rem;
+    height: 60px;
 }
 
 .navbar .login{
@@ -52,3 +53,6 @@ html {
     box-sizing: inherit;
   }
 
+  button , .login{
+    border-width: 0px;
+  }

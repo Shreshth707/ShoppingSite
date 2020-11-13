@@ -1,0 +1,17 @@
+.front-image{
+    max-height: 400px;
+    padding: 0px;
+}
+  
+
+.container{
+    margin-top: 5%;
+}
+
+.contact-info{
+    float:right;
+    margin-top: 10%;
+}
+section{
+    clear: both;
+}

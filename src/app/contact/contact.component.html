@@ -1,3 +1,59 @@
-<p>
-  contact works!
-</p>
+<div style="height: 60px;"></div>
+
+<img class="front-image col-md-5" src="/src/assets/contact1.jpg">
+<img class="front-image col-md-7" src="/src/assets/contact2.jpg">
+
+
+
+
+  <div class="container">
+    <div>
+      <img src="/src/assets/contact.webp" class="col-md-5">
+
+      <div class="col-md-6 contact-info">
+        <h3>Visit Our Store</h3> 
+        <div>
+          <div>
+            <address>
+              121, Clear Water Bay Road<br>
+              Clear Water Bay, Kowloon<br>
+              HONG KONG<br>
+              <i></i>: +852 1234 5678<br>
+              <i></i>: +852 8765 4321<br>
+              <i></i>: 
+                    <span>Mail us at: </span><a href="mailto:sirolashreshth@gmail.com">sirolashreshth@gmail.com</a>
+            </address>
+            <p></p>
+            <div>
+              <a mat-raised-button href="tel:+85212345678" class="contact-btn"><i class="fa fa-phone"></i> Call</a>
+              <a mat-raised-button class="contact-btn"><i class="fa fa-skype"></i> Skype</a>
+              <a mat-raised-button href="mailto:sirolashreshth@gmail.com" class="contact-btn"><i class="fa fa-envelope-o"></i> Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section>
+
+
+  <div class="container">
+    <h3 style="text-align: center;margin-top: 2%;margin-bottom: 2%;">Contact Us</h3>
+ 
+
+    <form novalidate [formGroup]="feedbackForm" #fform='ngForm' (ngSubmit)="onSubmit()">      
+      <mat-error *ngIf="formErrors.firstname">{{formErrors.firstname}}</mat-error>
+      <input matInput formControlName="firstname" name="name" type="text" class="feedback-input" placeholder="Name" required/>  
+      <mat-error *ngIf="formErrors.email">{{formErrors.email}}</mat-error>
+      <input matInput formControlName="email" name="email" type="text" class="feedback-input" placeholder="Email" required />  
+      <mat-error *ngIf="formErrors.message">{{formErrors.message}}</mat-error>
+      <textarea formControlName="message" name="text" class="feedback-input" placeholder="Message"></textarea>
+      <button [disabled]='feedbackForm.invalid' type="submit" mat-button class="background-primary text-floral-white">Submit</button>
+    </form>
+
+</div>
+
+
+
+</section>
