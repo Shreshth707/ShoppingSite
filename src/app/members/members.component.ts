@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
+
+import { MatDialog } from '@angular/material';
+import { LoginComponent } from '../login/login.component';
+
+
 @Component({
   selector: 'app-members',
   templateUrl: './members.component.html',
@@ -7,9 +12,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MembersComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog:MatDialog ) { }
 
   ngOnInit() {
+  }
+
+  openLoginForm() {
+    this.dialog.open(LoginComponent);
   }
 
 }
