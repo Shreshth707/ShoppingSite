@@ -1,0 +1,11 @@
+.nav-link{
+    color: #EA5823;
+    text-align: center;
+    background-color: #343A40;
+    margin: 0px;
+    min-width: 300px;
+}
+
+h3:hover{
+    cursor: pointer;
+}

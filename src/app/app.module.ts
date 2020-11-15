@@ -27,6 +27,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatProgressSpinnerModule, MatSelectModule, MatSlideToggleModule } from '@angular/material';
 import { MatSliderModule } from '@angular/material/slider';
+import { TogglebtnComponent } from './togglebtn/togglebtn.component';
+
+
 
 
 @NgModule({
@@ -39,7 +42,8 @@ import { MatSliderModule } from '@angular/material/slider';
     AboutComponent,
     MembersComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    TogglebtnComponent
   ],
   imports: [
     BrowserModule,
@@ -62,7 +66,8 @@ import { MatSliderModule } from '@angular/material/slider';
     ReactiveFormsModule
   ],
   entryComponents: [
-    LoginComponent
+    LoginComponent,
+    TogglebtnComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

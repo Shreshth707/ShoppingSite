@@ -5,3 +5,12 @@ body{
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+.custom-dialog-container .mat-dialog-container {
+    /* add your styles */
+    position: absolute;
+    padding: 0px;
+    top: 60px;
+    right: 0px;
+    background-color: #343A40;
+}
